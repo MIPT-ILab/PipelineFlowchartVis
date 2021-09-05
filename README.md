@@ -1,4 +1,4 @@
-# MIPT-V pipeline visualizer
+# MIPT-V pipeline flowchart
 MIPT-V visualizer is a tool that creates interactive flowchart of CPU pipeline model used in MIPT-V sumulator. This visualization represents the stages of the pipeline and connections between them in a user-friendly manner and can be used for educational purposes.
 
 Key features: 
