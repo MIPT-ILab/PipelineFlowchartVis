@@ -7,7 +7,7 @@ const jsdom = require("jsdom");
 const fs = require("fs");
 const { JSDOM } = jsdom;
 
-const rdom = fs.readFileSync('../tests/dom_test.html', (err) => {if (err) throw err;})
+const rdom = fs.readFileSync('./test/dom_test.html', (err) => {if (err) throw err;})
 const dom = new JSDOM(rdom);
 
 global.document = dom.window.document;
@@ -21,7 +21,7 @@ var expect = require('chai').expect;
 global.jsPlumb = jsPlumb;
 global.Biltong = Biltong;
 
-const rdata = fs.readFileSync('../tests/topology_root_test.json', (err) => {if (err) throw err;});
+const rdata = fs.readFileSync('./test/topology_root_test.json', (err) => {if (err) throw err;});
 const data = JSON.parse(rdata);
 
 data.modules.B.write_ports['B_to_D_2'] = '';
