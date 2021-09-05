@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/MIPT-ILab/PipelineFlowchartVis/branch/main/graph/badge.svg?token=H0CAYA7QDT)](https://codecov.io/gh/MIPT-ILab/PipelineFlowchartVis)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/MIPT-ILab/PipelineFlowchartVis.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/MIPT-ILab/PipelineFlowchartVis/context:javascript)
 
 # MIPT-V pipeline flowchart
